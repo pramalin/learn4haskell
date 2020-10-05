@@ -1167,6 +1167,11 @@ data Knight2 = Knight2 {
   , knight2Attack  :: Attack
   }
 
+data Monster2 = Monster2 {
+    monster2Health  :: Health
+  , monster2Attack  :: Attack
+  }
+
 {-
 You did it! Now it is time to the open pull request with your changes
 and summon @vrom911 and @chshersh for the review!
